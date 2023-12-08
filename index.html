@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+    integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"
+    integrity="sha512-5nTpER5HrSoRPyd8szIn2QglL3A54KJs4XOcX3SdHTbLb8TO/5wLqoFYSFGNyhzZy7CFAOZf66X3ikr2v7Bfuw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"
+    integrity="sha512-UznfQR3LKkKPL0k7HISMqOsmUCjVhjWK8HlR0Pxo5JpjN8eZ8XRwKBRX6OTOQIO0FYOl8Oue+4dG4uHtx1SgKQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/AttrPlugin.min.js"
+    integrity="sha512-PR8ZlgsfG9Ugz0xeMMkveiiu9hFFA3Y69Yl/rxQDWInaGWM+h9aBh2+U+c6LK/05yQki040P/V31Kddc890vRg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"
+    integrity="sha512-Xc+rcY3w0DANwcFGWBcnBf2dw/p5a4IBAKqHdBJScNOnIH+qoQYE6xuWEdW3wiP7Q+XvL9MacrnKkzoP0Kexug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styles.css">
+
+
+<body>
+    <header>
+        <div class="header-container">
+            <span class="top-span"> BIBHABASU </span>
+            <nav id="nav">
+                <ul id="nav-ul">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <span class="hamburger" id="button"><i class="fa-solid fa-bars"></i></span>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="container-hero">
+        <div class="container">
+            <h1><br>Hello Everyone<br> I am a </br>
+                <span class="txt-type" data-wait="3000" data-words='["Developer", "Coder", " Data enthusiaist"]'></span>
+            </h1>
+        </div>
+        <div class="container-photo">
+            <img src="Profile pic.png" alt="">
+        </div>
+
+    </div>
+
+
+    <div class="container-hero-About">
+        <div class="about-me">ABOUT ME</div>
+        <div class="container-hero-About-section">
+            <div class="container-photo-About">
+                <div class="laptop">
+                    <svg viewBox="0 0 480 268" width="100%" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g class="laptop-bottom">
+                            <path transform="translate(0, 250)"
+                                d="M450,18 L31,18 C21,18 34e-13,14 0,12 L 480,12 C480,14 460,18 450,18 Z" />
+                            <rect x="0" y="250" width="480" height="12" />
+                        </g>
+                        <path class="laptop-lid"
+                            d="M 70,240 l 341.6 0 l 52.17 0 l -434.7 0 l 52 0 z M 426,250 l -368.4 0 l -56.4 0 c 0 -8.46 8 -8.46 18.05 -8.46 l 443.6 0 c 19.7 0 18 8 18 8.5 l -56 0 z" />
+                        <rect class="screen-bg" x="70" y="24" width="342" height="216" />
+                        <g class="grid">
+                            <polygon points="94,51 388,51"></polygon>
+                            <polygon points="94,83 388,83"></polygon>
+                            <polygon points="94,115 388,115"></polygon>
+                            <polygon points="94,147 388,147"></polygon>
+                            <polygon points="94,179 388,179"></polygon>
+                            <polygon points="94,211 388,211"></polygon>
+                        </g>
+                        <g transform="translate(96, 58)">
+                            <polyline class="chart"
+                                points="0 122 15 107 30 110 46 97 61 94 76 85 92 95 107 113 122 72 137 73 153 53 168 55 183 49 199 30 214 0 229 10 244 29 260 25 275 21 290 4">
+                            </polyline>
+                            <polyline class="chart" stroke-dasharray="395" stroke-dashoffset="395"
+                                points="0 140 15 144 30 142 46 131 61 119 76 120 92 120.82458 107 125 122 113 137 115 153 125 168 112 183 78 199 52 214 96 229 83 244 90 260 104 275 99 290 87">
+                            </polyline>
+                            <polyline class="chart" stroke-dasharray="332" stroke-dashoffset="332"
+                                points="0 122 15 128 30 130 46 115 61 107 76 112 92 98 107 93 122 94 137 92 153 82 168 66 183 67 199 64 214 52 229 52 244 60 260 51 275 36 290 36">
+                            </polyline>
+                            <polyline class="chart" stroke-dasharray="425" stroke-dashoffset="425"
+                                points="0 152 15 129 30 98 46 66 61 73 76 68 92 79 107 77 122 90 137 102 153 104 168 85 183 83 199 84 214 74 229 57 244 40 260 83 275 77 290 61">
+                            </polyline>
+                        </g>
+                        <g class="logo" transform="translate(82, 34)">
+                            <path
+                                d="M2,0 L30,0 C31,0 32,1 32,2 L32,30 C32,31 31,32 30,32 L2,32 C1,32 0,31 0,30 L0,2 C0,1 1,0 2,0 Z" />
+                            <path
+                                d="M24,6 L20,6 C20,6 20,6 20,6.5 L20,15 C20,16 19,16 19,16 L19,16 C19,16 18,16 18,15.5 L18,9 C18,9 18,8.5 18,8.5 C18,8.5 18,8.5 18,8.5 L14,8.5 C14,8.5 13,9 13,9 L13,15.5 C13,16 13,16 13,16 L13,16 C12,16 12,16 12,15.5 L12,15 L12,11 C12,11 12,11 12,11 L8,11 C7.5,11 7,11 7,11 L7,17 L24,17 L24,6.5 C24,6 24,6 24,6 Z" />
+                            <text x="4" y="27">wikifolio</text>
+                        </g>
+                    </svg>
+                </div>
+                <div class="ai text-block big">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 50 50">
+                        <path
+                            d="M24 32h-2v3h-6v5h-5.085a1.5 1.5 0 1 1 0-1H15v-5h6v-2h-1a2 2 0 0 1-2-2v-2.028h-1.972V32H12.95a2.5 2.5 0 1 1 0-1h2.078v-4.028H18V25H8v-5.085a1.5 1.5 0 1 1 1 0V24h9v-2h-6V9.915a1.5 1.5 0 1 1 1 0V21h5v-1a2 2 0 0 1 2-2h2v-5h-3.085a1.5 1.5 0 1 1 0-1H23v6h2v-7h2V7.95a2.5 2.5 0 1 1 1 0V12h-2v6h2v-4h5v-2.085a1.5 1.5 0 1 1 1 0V15h-5v3h1a2 2 0 0 1 2 2v2h2v-4h6v-2.085a1.5 1.5 0 1 1 1 0V19h-6v4h-3v2h10v3.05a2.5 2.5 0 1 1-1 0V26h-9v2h2v10h7.085a1.5 1.5 0 1 1 0 1H33V29h-1v1a2 2 0 0 1-2 2h-1v10h1.085a1.5 1.5 0 1 1 0 1H28V32h-3v6h-5v5.05a2.5 2.5 0 1 1-1 0V37h5v-5z" />
+                    </svg>
+                    <div>
+                        Artificial Intelligence
+                    </div>
+                </div>
+                <div class="cryptocurrency text-block big">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 50 50">
+                        <path
+                            d="M43.041 25.046c0 9.938-8.058 17.996-17.998 17.996-9.936 0-17.994-8.058-17.993-17.996 0-9.938 8.057-17.996 17.994-17.996 9.94 0 17.997 8.058 17.997 17.996zm-10.915-4.409c-.231-2.41-2.312-3.219-4.94-3.449v-3.343H25.15V17.1c-.535 0-1.082.011-1.625.022v-3.277h-2.034l-.001 3.343c-.44.009-.873.017-1.295.017v-.01l-2.808-.001v2.174s1.503-.029 1.478-.001c.825 0 1.093.478 1.171.891v3.81c.057 0 .131.002.216.014h-.216v5.337c-.036.26-.189.673-.765.674.026.023-1.48 0-1.48 0l-.404 2.43h2.649c.493 0 .978.009 1.454.012v3.382h2.034v-3.346c.558.012 1.099.016 1.626.015v3.331h2.035V32.54c3.423-.196 5.818-1.059 6.115-4.272.24-2.587-.977-3.742-2.92-4.208 1.181-.601 1.919-1.66 1.746-3.424zm-2.848 7.231c.001 2.528-4.326 2.24-5.706 2.242v-4.481c1.38 0 5.707-.397 5.706 2.24zm-.946-6.321c0 2.3-3.61 2.03-4.76 2.031v-4.064c1.15 0 4.76-.365 4.76 2.033z" />
+                    </svg>
+                    <div>
+                        Machine Learning
+                    </div>
+                </div>
+                <div class="autonomous-driving text-block big">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 50 50">
+                        <path
+                            d="M23.11 42.17l-.742-10.388a7.296 7.296 0 0 1-4.15-4.15L7.83 26.89c.874 8.03 7.25 14.406 15.28 15.28zm3.78 0c8.03-.874 14.406-7.25 15.28-15.28l-10.388.742a7.296 7.296 0 0 1-4.15 4.15L26.89 42.17zM7.83 23.11l10.388-.742a7.275 7.275 0 0 1 13.564 0l10.388.742C41.23 14.46 33.9 7.727 25 7.727c-8.9 0-16.229 6.732-17.17 15.383zM25 45C13.954 45 5 36.046 5 25S13.954 5 25 5s20 8.954 20 20-8.954 20-20 20zM20.447.668a.75.75 0 0 1 .274 1.475 23.072 23.072 0 0 0-3.881 1.08.75.75 0 1 1-.527-1.405 24.572 24.572 0 0 1 4.134-1.15zM8.44 3.044a.5.5 0 1 1 .602.797 26.66 26.66 0 0 0-4.883 4.79.5.5 0 0 1-.786-.618 27.66 27.66 0 0 1 5.067-4.97zm5.195-.036a.75.75 0 1 1 .69 1.332 23.357 23.357 0 0 0-9.886 9.797.75.75 0 0 1-1.326-.702A24.857 24.857 0 0 1 13.635 3.008zm15.918 46.324a.75.75 0 0 1-.274-1.475 23.072 23.072 0 0 0 3.881-1.08.75.75 0 1 1 .527 1.405c-1.338.502-2.72.887-4.134 1.15zm12.007-2.376a.5.5 0 1 1-.602-.797 26.66 26.66 0 0 0 4.883-4.79.5.5 0 0 1 .786.618 27.66 27.66 0 0 1-5.067 4.97zm-5.195.036a.75.75 0 0 1-.69-1.332 23.357 23.357 0 0 0 9.886-9.797.75.75 0 0 1 1.326.702 24.857 24.857 0 0 1-10.522 10.427z" />
+                    </svg>
+                    <div>
+                        Deep Learning
+                    </div>
+                </div>
+                <div class="commodities text-block big">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 50 50">
+                        <path
+                            d="M12 21h-1v-2h1v-8h-2V8h30v3h-2v8h1v2h-1v10h1v2h-1v6h2v3H10v-3h2v-6h-1v-2h1V21zm13 10c2.761 0 5-2.255 5-4.53 0-2.274-2.5-7.823-5-9.47-2.5 1.647-5 7.196-5 9.47 0 2.275 2.239 4.53 5 4.53zm1.222-1.492a.5.5 0 1 1-.444-.896 4.65 4.65 0 0 0 1.986-1.857.5.5 0 0 1 .872.49 5.65 5.65 0 0 1-2.414 2.263z" />
+                    </svg>
+                    <div>
+                        Natural Language Processing
+                    </div>
+                </div>
+                <div class="day-trading text-block white-block small">
+                    HTML
+                </div>
+                <div class="robotics text-block white-block medium">
+                    Robotics
+                </div>
+                <div class="emerging-markets text-block white-block medium">
+                    CSS
+                </div>
+                <div class="e-mobility text-block white-block small">
+                    Javascript
+                </div>
+                <div class="small-caps text-block white-block medium">
+                    MERN
+                </div>
+                <div class="solar text-block white-block medium">
+                    React.js
+                </div>
+                <div class="german-stocks text-block white-block medium">
+                    Node.js
+                </div>
+            </div>
+            <div class="container-About">
+                <p>An Electrical engineering student at IIT Kharagpur enrolled in Bachelor of Technology, I am deeply
+                    immersed
+                    in
+                    technology, specializing in
+                    software development. As a versatile full-stack web developer, I navigate both front-end and
+                    back-end intricacies, crafting seamless digital experiences.Simult aneously, my fascination
+                    with
+                    machine learning fuels a commitment to integrating AI into software solutions, exploring the realms
+                    of adaptability and intelligence.
+
+                    Actively engaging in
+                    coding challenges and open-source collaborations, I contribute to an ecosystem that nurtures
+                    innovation.
+
+
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-project">
+        <div class="project">PROJECTS</div>
+        <ul class="projectList">
+
+            <li>
+                <div class="projectWrap">
+                    <div class="inner">
+                        <div class="project">
+                            <div class="innerWrap">
+                                <div class="image"
+                                    style="background-image:url(luxurious-hotel-room-wallpaper-preview.jpg);">
+                                    <div class="text-project" style="color: rgb(255, 255, 255); padding-top: 30px;">
+                                        Hotel KGP</div>
+                                </div>
+                                <div class="metaWrap">
+                                    <div class="meta">
+                                        <h5>A full-stack website of a hotel using MERN Stack</h5>
+                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
+                                            style="text-decoration: none;">
+                                            <p class="label" style="font-weight: 900;">GITHUB</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="projectWrap">
+                    <div class="inner">
+                        <div class="project">
+                            <div class="innerWrap">
+                                <div class="image" style="background-image:url(disease_classifier.jpg);">
+                                    <div class="text-project" style="color: rgb(255, 255, 255); padding-top: 30px;">
+                                        DISEASE CLASSIFIER</div>
+                                </div>
+                                <div class="metaWrap">
+                                    <div class="meta">
+                                        <h5>Used deep learning methods to predict the Coccidiosis disease in chicken
+                                        </h5>
+                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
+                                            style="text-decoration: none;">
+                                            <p class="label" style="font-weight: 900;">GITHUB</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="projectWrap">
+                    <div class="inner">
+                        <div class="project">
+                            <div class="innerWrap">
+                                <div class="image" style="background-image:url(weather-track.jpg);">
+                                    <div class="text-project" style="color: rgb(255, 255, 255); padding-top: 30px;">
+                                        WEATHER TRACK</div>
+                                </div>
+                                <div class="metaWrap">
+                                    <div class="meta">
+                                        <h5>Used weather API to deliver the accurate weather status of any place</h5>
+                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
+                                            style="text-decoration: none;">
+                                            <p class="label" style="font-weight: 900;">GITHUB</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="projectWrap">
+                    <div class="inner">
+                        <div class="project">
+                            <div class="innerWrap">
+                                <div class="image" style="background-image:url(bookstore.jpg);">
+                                    <div class="text-project" style="color: rgb(255, 255, 255); padding-top: 30px;">
+                                        STARGAZING</div>
+                                </div>
+                                <div class="metaWrap">
+                                    <div class="meta">
+                                        <h5>A Bookstore website made using React</h5>
+                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
+                                            style="text-decoration: none;">
+                                            <p class="label" style="font-weight: 900;">GITHUB</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <span class="header1">Contact Me</span>
+        <div class="left">
+            <textarea placeholder="Name" class="name"></textarea>
+            <textarea placeholder="Email/Contact" class="email"></textarea>
+        </div>
+        <div class="right">
+            <textarea placeholder="Message" class="msg"></textarea>
+            <button id="submitbtn">></button>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="ftrlinks" id="start">
+                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                    <path
+                        d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" />
+                </svg>
+            </div>
+            <div class="ftrlinks">
+                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="-2 -2 24 24"
+                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-linkedin">
+                    <path
+                        d='M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z' />
+                </svg>
+            </div>
+            <div class="ftrlinks">
+                <svg class="SVG" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 3.5l.5-.5h13l.5.5v9l-.5.5h-13l-.5-.5v-9zm1 1.035V12h12V4.536L8.31 8.9H7.7L2 4.535zM13.03 4H2.97L8 7.869 13.03 4z" />
+                </svg>
+            </div>
+            <div class="ftrlinks">
+                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                    <path
+                        d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" />
+                </svg>
+            </div>
+
+            <div class="ftrlinks" id="end">
+                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+
+                    <g id="Facebook">
+                        <path
+                            d="M19.02,4.975A9.93,9.93,0,0,0,2.07,12,9.935,9.935,0,0,0,12,21.935a9.98,9.98,0,0,0,3.8-.75,10.189,10.189,0,0,0,3.22-2.16,9.934,9.934,0,0,0,0-14.05Zm-.7,13.34A8.921,8.921,0,0,1,13,20.885v-6.56h1.88a1,1,0,0,0,0-2H13V9.585a1,1,0,0,1,1-1h1.2a1,1,0,0,0,0-2H13.5a2.5,2.5,0,0,0-2.5,2.5v3.24H9.13a1,1,0,1,0,0,2H11v6.56a8.919,8.919,0,1,1,9.26-5.47A9.061,9.061,0,0,1,18.32,18.315Z" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <span class="ftrtxt">Copyright @bibhabasu 2023</span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
