@@ -38,10 +38,10 @@
             <span class="top-span"> BIBHABASU </span>
             <nav id="nav">
                 <ul id="nav-ul">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Projects</a></li>
+                    <li><a href="#section4">Contact</a></li>
                 </ul>
             </nav>
             <span class="hamburger" id="button"><i class="fa-solid fa-bars"></i></span>
@@ -52,7 +52,7 @@
 
 
 
-    <div class="container-hero">
+    <div class="container-hero" id="section1">
         <div class="container">
             <h1><br>Hello Everyone<br> I am a </br>
                 <span class="txt-type" data-wait="3000" data-words='["Developer", "Coder", " Data enthusiaist"]'></span>
@@ -65,7 +65,7 @@
     </div>
 
 
-    <div class="container-hero-About">
+    <div class="container-hero-About" id="section2">
         <div class="about-me">ABOUT ME</div>
         <div class="container-hero-About-section">
             <div class="container-photo-About">
@@ -208,7 +208,7 @@
 
 
 
-    <div class="container-project">
+    <div class="container-project" id="section3">
         <div class="project">PROJECTS</div>
         <ul class="projectList">
 
@@ -248,10 +248,11 @@
                                 </div>
                                 <div class="metaWrap">
                                     <div class="meta">
-                                        <h5>Used deep learning methods to predict the Coccidiosis disease in chicken
+                                        <h5>Used deep learning methods to predict the early blight and layte blight in
+                                            potato
                                         </h5>
-                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
-                                            style="text-decoration: none;">
+                                        <a href="https://github.com/bibhabasuiitkgp/Potato_Disease_Classifier"
+                                            target="_blank" style="text-decoration: none;">
                                             <p class="label" style="font-weight: 900;">GITHUB</p>
                                         </a>
                                     </div>
@@ -274,7 +275,7 @@
                                 <div class="metaWrap">
                                     <div class="meta">
                                         <h5>Used weather API to deliver the accurate weather status of any place</h5>
-                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
+                                        <a href="https://github.com/bibhabasuiitkgp/WeatherTrack" target="_blank"
                                             style="text-decoration: none;">
                                             <p class="label" style="font-weight: 900;">GITHUB</p>
                                         </a>
@@ -298,8 +299,8 @@
                                 <div class="metaWrap">
                                     <div class="meta">
                                         <h5>A Bookstore website made using React</h5>
-                                        <a href="https://github.com/bibhabasuiitkgp/Hotel_KGP" target="_blank"
-                                            style="text-decoration: none;">
+                                        <a href="https://github.com/bibhabasuiitkgp/react_stargazing_website"
+                                            target="_blank" style="text-decoration: none;">
                                             <p class="label" style="font-weight: 900;">GITHUB</p>
                                         </a>
                                     </div>
@@ -325,7 +326,7 @@
 
 
 
-    <div class="footer">
+    <div class="footer" id="section4">
         <span class="header1">Contact Me</span>
         <div class="left">
             <textarea placeholder="Name" class="name"></textarea>
@@ -338,43 +339,54 @@
         <hr>
         <div class="bottom">
             <div class="ftrlinks" id="start">
-                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
-                    <path
-                        d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" />
-                </svg>
+                <a href="https://github.com/bibhabasuiitkgp">
+                    <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                        <path
+                            d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" />
+                    </svg>
+                </a>
             </div>
             <div class="ftrlinks">
-                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="-2 -2 24 24"
-                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-linkedin">
-                    <path
-                        d='M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z' />
-                </svg>
+                <a href="https://www.linkedin.com/in/bibhabasu-debnath-b43a6a252/">
+                    <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="-2 -2 24 24"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-linkedin">
+                        <path
+                            d='M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z' />
+                    </svg>
+                </a>
             </div>
             <div class="ftrlinks">
-                <svg class="SVG" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                    fill="#000000">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M1 3.5l.5-.5h13l.5.5v9l-.5.5h-13l-.5-.5v-9zm1 1.035V12h12V4.536L8.31 8.9H7.7L2 4.535zM13.03 4H2.97L8 7.869 13.03 4z" />
-                </svg>
+                <a href="bibhabasucvsc@gmail.com">
+                    <svg class="SVG" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1 3.5l.5-.5h13l.5.5v9l-.5.5h-13l-.5-.5v-9zm1 1.035V12h12V4.536L8.31 8.9H7.7L2 4.535zM13.03 4H2.97L8 7.869 13.03 4z" />
+                    </svg>
+                </a>
             </div>
             <div class="ftrlinks">
-                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
-                    <path
-                        d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" />
-                </svg>
+                <a href="https://www.instagram.com/bibhabasudebnath/">
+                    <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                        <path
+                            d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" />
+                    </svg>
+                </a>
             </div>
 
             <div class="ftrlinks" id="end">
-                <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
+                <a href="https://www.facebook.com/profile.php?id=100089234116472">
+                    <svg class="SVG" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
 
-                    <g id="Facebook">
-                        <path
-                            d="M19.02,4.975A9.93,9.93,0,0,0,2.07,12,9.935,9.935,0,0,0,12,21.935a9.98,9.98,0,0,0,3.8-.75,10.189,10.189,0,0,0,3.22-2.16,9.934,9.934,0,0,0,0-14.05Zm-.7,13.34A8.921,8.921,0,0,1,13,20.885v-6.56h1.88a1,1,0,0,0,0-2H13V9.585a1,1,0,0,1,1-1h1.2a1,1,0,0,0,0-2H13.5a2.5,2.5,0,0,0-2.5,2.5v3.24H9.13a1,1,0,1,0,0,2H11v6.56a8.919,8.919,0,1,1,9.26-5.47A9.061,9.061,0,0,1,18.32,18.315Z" />
-                    </g>
-                </svg>
+                        <g id="Facebook">
+                            <path
+                                d="M19.02,4.975A9.93,9.93,0,0,0,2.07,12,9.935,9.935,0,0,0,12,21.935a9.98,9.98,0,0,0,3.8-.75,10.189,10.189,0,0,0,3.22-2.16,9.934,9.934,0,0,0,0-14.05Zm-.7,13.34A8.921,8.921,0,0,1,13,20.885v-6.56h1.88a1,1,0,0,0,0-2H13V9.585a1,1,0,0,1,1-1h1.2a1,1,0,0,0,0-2H13.5a2.5,2.5,0,0,0-2.5,2.5v3.24H9.13a1,1,0,1,0,0,2H11v6.56a8.919,8.919,0,1,1,9.26-5.47A9.061,9.061,0,0,1,18.32,18.315Z" />
+                        </g>
+
+                    </svg>
+                </a>
             </div>
         </div>
         <span class="ftrtxt">Copyright @bibhabasu 2023</span>
